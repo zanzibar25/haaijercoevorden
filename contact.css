@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+     color: blue;
+}
+
+body:hover a {
+    background-color: blue;
+    color: white;
+    border: 1px dotted blue;
+}
+
+h1{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
+
+a{
+    color: lightskyblue;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 88%;
+    padding: 2px;
+    width: 150px;
+    border: 1px solid blue;
+    border-radius: 3px;
+
+}
+
+a:hover{
+    color: red;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+p1{
+    line-height: 1.6;
+    margin: auto;
+    padding: 20px;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+}
+
+.openingstijden{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 72px;
+    color: black;
+}
+
+.contact-background{
+    margin-top: 28px;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    height: 275px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    margin-bottom: 240px;
+}
+
+.contact{
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: white;
+         
+    }
+    img {
+            width: 70%;
+            height: auto;
+        }
+    a  {
+        margin-left: 30%;
+    }
+    p1 {
+        width: 85%;
+        height: auto;
+        font-size: 20px;
+    }
+}
